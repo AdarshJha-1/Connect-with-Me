@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 # Simple-Social-Hub-app-react
 
 # View here
-- [Click here](simple-social-hub-app-react.vercel.app)
+- [Click here](https://simple-social-hub-app-react.vercel.app/)
