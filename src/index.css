@@ -1,13 +1,9 @@
 @tailwind base;
 @tailwind components;
-<<<<<<< HEAD
 @tailwind utilities;
 
 #root {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-=======
-@tailwind utilities;
->>>>>>> 391234b4c4481b77069c076124d531ac0efeb450
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
