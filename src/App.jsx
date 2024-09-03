@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 import { Card } from './Card'
+=======
+import './App.css'
+>>>>>>> 391234b4c4481b77069c076124d531ac0efeb450
 
 function App() {
   const allData = [
     {
       "platform": "LinkedIn",
+<<<<<<< HEAD
       "url": "https://www.linkedin.com/in/adarsh2005/",
+=======
+      "url": "https://www.linkedin.com/in/adarshjha01",
+>>>>>>> 391234b4c4481b77069c076124d531ac0efeb450
       "logo": "https://imgs.search.brave.com/bDgXzdDkusXSvSnrnflVPp1YIokwifBW_buFfOWkLtQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/Ny9MaW5rZWRpbi1U/cmFuc3BhcmVudC5w/bmc",
       "emoji": "🧑‍💻"
     },
@@ -22,7 +30,11 @@ function App() {
     },
     {
       "platform": "Twitter",
+<<<<<<< HEAD
       "url": "https://x.com/AdarshJha___",
+=======
+      "url": "https://twitter.com/adarshjha__1",
+>>>>>>> 391234b4c4481b77069c076124d531ac0efeb450
       "logo": "https://imgs.search.brave.com/QqCCr7WBdAV26DZGWoZsMmQGzOQI3QEXfida6YyTEvE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/Ny9Ud2l0dGVyLnBu/Zw",
       "emoji": "🙄"
     },
@@ -30,11 +42,26 @@ function App() {
 
   return (
 
+<<<<<<< HEAD
     <div className="bg-gray-800 w-full min-h-screen text-white p-5 flex flex-col items-center">
       <h1 className='text-3xl sm:text-5xl  mt-5 font-extrabold font-mono'>Connect with Me</h1>
       {allData.map(({url, logo, emoji, platform}) => (
         <Card emoji={emoji} logo={logo} platform={platform} url={url} key={logo}/>
       ))}
+=======
+    <div className="bg-gray-800 w-full h-lvh text-white p-5">
+      <h1 className='text-5xl mt-5 font-extrabold font-mono'>Connect with Me</h1>
+      {
+        allData.map(data => (
+          <div className='w-80 h-[80px] m-auto bg-gray-700 rounded-xl'>
+            <div className='flex mt-10 justify-center gap-3 items-center p-2'>
+              <img className='w-16 ' src={data.logo} alt="" />
+              <a className="text-4xl" target='_blank' href={data.url}>{data.platform}&nbsp;{data.emoji}</a>
+            </div>
+          </div>
+        ))
+      }
+>>>>>>> 391234b4c4481b77069c076124d531ac0efeb450
     </div>
   )
 }
